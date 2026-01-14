@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: #f4f6f9;
+  color: #111827;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; /* ✅ center horizontally */
+  align-items: flex-start; /* ✅ top se start */
+  padding: 22px 14px;
+}
+
+.card {
+  width: 100%;
+  max-width: 950px; /* ✅ center wide card */
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 18px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  margin-bottom: 14px;
+}
+
+.title {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.connectBtn {
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  font-weight: 800;
+  background: #2563eb;
+  color: white;
+}
+
+.section {
+  margin-top: 14px;
+  padding: 14px;
+  background: #fafafa;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+}
+
+.section h3 {
+  margin: 0 0 10px;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+input {
+  flex: 1;
+  min-width: 240px;
+  padding: 11px 12px;
+  border-radius: 12px;
+  border: 1px solid #d1d5db;
+  outline: none;
+  font-size: 14px;
+  background: white;
+}
+
+button {
+  padding: 11px 14px;
+  border-radius: 12px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.secondaryBtn {
+  background: #111827;
+}
+
+.list {
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 10px;
+}
+
+.list li {
+  padding: 12px;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  overflow-wrap: anywhere;
+}
+
+a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 800;
+}
